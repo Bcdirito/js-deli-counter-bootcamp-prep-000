@@ -2,10 +2,9 @@ var katzDeli = [];
 var katzDeliLine = [];
 
 function takeANumber (katzDeliLine) {
-katzDeliLine.push(name);
-let i = katzDeliLine.length;
+ var takeaNumeber = katzDeliLine.push(katzDeliLine);
 
-var takeANumber = 'Welcome, ' + name + '. You are number ' + i + ' in line.';
+var takeANumber = 'Welcome. You are number ' + katzDeliLine.length + ' in line.';
 
 return takeANumber;
 }
